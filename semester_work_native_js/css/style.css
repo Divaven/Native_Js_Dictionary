@@ -1,0 +1,37 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#translationBlock {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+#dictionaryList .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remove-btn {
+    margin-left: 10px;
+    color: #dc3545;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.remove-btn:hover {
+    color: #bd2130;
+}
